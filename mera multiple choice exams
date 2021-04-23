@@ -1,0 +1,426 @@
+1. Which type of error occurs in statements that are syntactically correct, but pro
+Which type of error occurs in statements that are syntactically correct, but produce undesired or unexpected results?
+
+Pick ONE option
+syntax error
+logic error -
+run-time error
+exception error
+
+Clear Selection
+2. What is the result of the following expression when x is 3576?     (x/10)%10
+What is the result of the following expression when x is 3576?     (x/10)%10
+
+Pick ONE option
+6
+7 - 
+76
+357
+
+Clear Selection
+3. Which Scanner class method is used to return a string that contains an entire li
+Which Scanner class method is used to return a string that contains an entire line of the user's input?
+
+Pick ONE option
+nextBoolean()
+nextInt()
+nextLine() - 
+next()
+
+Clear Selection
+4. Which statement declares a new object named dot using a class named Oval?
+Which statement declares a new object named dot using a class named Oval?
+
+Pick ONE option
+dot = new Oval();
+Oval dot = new;
+Oval dot = new Oval();   - 
+Oval dot = Oval();
+
+Clear Selection
+5. What is the final value of finalNumber after the last statement executes?
+What is the final value of finalNumber after the last statement executes?
+
+int startingNumber = 10; 
+int finalNumber = 25; 
+startingNumber = finalNumber / 5; 
+finalNumber = startingNumber + 5;
+ 
+
+Pick ONE option
+5
+10  - 
+20
+25
+
+Clear Selection
+6. If a value could possibly have a decimal portion, int is the best data type choi
+If a value could possibly have a decimal portion, int is the best data type choice.
+
+Pick ONE option
+TRUE
+FALSE  - 
+
+Clear Selection
+7. In a switch statement, which code is executed if none of the previous cases are
+In a switch statement, which code is executed if none of the previous cases are met?
+Pick ONE option
+the break statement
+the default clause  - 
+the last case clause
+No statements are executed.
+
+Clear Selection
+8. Given the following code segment:
+Given the following code segment: 
+
+    int y = -2;
+    int x = 1; 
+    switch (x) {    
+        case 1: y = 0; break;   
+        case 2: y = 1; break;   
+        default: y = y + 1; 
+    } 
+    System.out.println(y);  
+What would be displayed when the segment is run?
+Pick ONE option
+0  - 
+2
+1
+3
+
+Clear Selection
+9. Given the following code segment:
+Given the following code segment: 
+
+    if (x > 0) {      
+        if (y > 0)  {           
+            System.out.println("x  and y ");      
+        } else if (z > 0) {           
+            System.out.println("x and z ");      
+        } 
+    }  
+
+Which is displayed when x = 56, y = -234, and z = -45?
+Pick ONE option
+x and y
+56 and -45
+x and z
+No output will be displayed.  - 
+
+Clear Selection
+10. Given the following code segment:
+Given the following code segment: 
+
+boolean finished = false;      
+if (finished) {           
+    System.out.println("Game finished");      
+} else {            
+    System.out.println("Next round");     
+}  
+
+
+Which will be displayed when the code segment is run?
+Pick ONE option
+false
+Game finished
+Next round  -  -  - 
+A syntax error will be generated because (finished) is not a correct Boolean expression.
+
+Clear Selection
+11. Given the following code segment:
+Given the following code segment: 
+
+    int a = 0, b = 0; 
+    while (a < 10) {   
+        b += a; 
+    }  
+    System.out.println(b);  
+
+Which output will be displayed?
+Pick ONE option
+0
+18
+10
+An infinite loop will occur. -  -  - 
+
+Clear Selection
+12. The block of a while loop always executes at least once.
+The block of a while loop always executes at least once.
+
+Pick ONE option
+TRUE -  -  - 
+FALSE
+
+Clear Selection
+13. Given the following code segment:
+Given the following code segment: 
+    
+    for (int i = 1; i <= 10; i++) {    
+        System.out.println(i); 
+    }  
+
+
+What value of i is displayed in the last loop iteration?
+Pick ONE option
+1
+11
+10 -  -  -  - 
+12
+
+Clear Selection
+14. Given the following code segment:
+Given the following code segment: 
+
+    for (int i = 0; i < 10; i++) {    
+        for (int j = 0; j < 3; j++) {     
+            System.out.print("#");   
+        } 
+    }  
+
+
+How many number signs will be displayed when the code segment is run?
+Pick ONE option
+3
+30 -  -  - 
+4
+300
+
+Clear Selection
+15. Given the following code segment:
+Given the following code segment: 
+    int x = 0; 
+    for (int i = 0; i < 8; i++) {      
+        x += i;  
+    } 
+    System.out.println(x);  
+
+Which will be displayed when the code segment is run?
+Pick ONE option
+7
+9
+8
+28 -  -  - 
+
+Clear Selection
+16. Given the following code segment:
+Given the following code segment: 
+
+public static int prob2(int x, int y) {    
+    int i;       
+    i = y + 2;    
+    i = i + x * 2;    
+    return i; 
+}  
+
+public static void main(String[] args) {    
+    int j = 6, 
+    int k = 4;
+    int m;
+    
+    m = prob2(j, k);    
+    System.out.println(m); 
+}  
+
+Which will be displayed after the code executes?
+Pick ONE option
+12
+18 -  -  - 
+24
+A syntax error will be generated.
+
+Clear Selection
+17. The arguments in a method call must
+The arguments in a method call must
+
+Pick ONE option
+correspond in order to the parameters in the method being called.
+have the same names as the corresponding parameters in the method being called. -  -  - 
+be variables.
+be integers.
+
+Clear Selection
+18. The number of arguments in a method call must match the number of parameters in
+The number of arguments in a method call must match the number of parameters in the method declaration.
+
+Pick ONE option
+TRUE -  -  - 
+FALSE
+
+Clear Selection
+19. The return type void means that the method will return a value.
+The return type void means that the method will return a value.
+
+Pick ONE option
+TRUE
+FALSE -  -  - 
+
+Clear Selection
+20. A method declared as void contains a return statement.
+A method declared as void contains a return statement.
+
+Pick ONE option
+TRUE -  -  - 
+FALSE
+
+Clear Selection
+21. Which statement converts a String named password to a character array?
+Which statement converts a String named password to a character array?
+
+Pick ONE option
+String.password(toCharArray());
+passChars = password.charArray();
+passChars = CharArray();
+passChars = password.toCharArray();
+
+Clear Selection
+22. What is values.length given the statement: int[] values = {1, 2, 3, 4};?
+What is values.length given the statement: int[] values = {1, 2, 3, 4};?
+
+Pick ONE option
+1
+2
+3
+4
+
+Clear Selection
+23. Which structure is best for accessing array elements?
+Which structure is best for accessing array elements?
+
+Pick ONE option
+while loop
+do-while loop
+for loop
+if-else statement
+
+Clear Selection
+24. How many array elements are declared in the statement: String[] names = {"Lisa",
+How many array elements are declared in the statement: String[] names = {"Lisa", "Fernando", "Whitney"};?
+
+Pick ONE option
+0
+1
+2
+3
+
+Clear Selection
+25. Which are the index values associated with the array declaration below?:
+Which are the index values associated with the array declaration below?:
+
+    String[] names = {"Lisa", "Fernando", "Whitney"};
+
+Pick ONE option
+0, 1, 2
+1, 2, 3
+0, 1, 2, 3, 4
+10, 20, 30
+
+Clear Selection
+26. Given the following code segment:
+Given the following code segment: 
+    public class Test {   
+        public static void main(String[] args) {     
+            int[] i = new int[10];     
+            System.out.println("The value of i[2] is: " + i[2]);   
+        } 
+    }  
+
+Which will be displayed after the code executes?
+Pick ONE option
+The value of i[2] is 0.
+The value of i[2] is 2.
+The value of i[2] is 10.
+A run-time error is generated because i[2] is not assigned a value.
+
+Clear Selection
+27. Which statement declares a constant named PRICE with a value of 5.25?
+Which statement declares a constant named PRICE with a value of 5.25?
+
+Pick ONE option
+final PRICE = 5.25;
+double PRICE = $5.25;
+const double PRICE = 5.25;
+final double PRICE = 5.25;
+
+Clear Selection
+28. Which expression does not evaluate to 0.6?
+Which expression does not evaluate to 0.6?
+
+Pick ONE option
+6.0 / 10;
+6 / 10.0;
+(int)6.5 / (double)10;
+(double) (6 / 10);
+
+Clear Selection
+29. Which data type is most appropriate for whether an employee qualifies for a bonu
+Which data type is most appropriate for whether an employee qualifies for a bonus?
+
+Pick ONE option
+int
+double
+boolean
+char
+
+Clear Selection
+30. A run-time error halts program execution at the statement that cannot be execute
+A run-time error halts program execution at the statement that cannot be executed.
+
+Pick ONE option
+TRUE
+FALSE
+
+Clear Selection
+31. The statement system.out.println("Hello world!"); will generate a syntax error.
+The statement system.out.println("Hello world!"); will generate a syntax error.
+
+Pick ONE option
+TRUE
+FALSE
+
+Clear Selection
+32. Using the Scanner class in an application does not require an import statement.
+Using the Scanner class in an application does not require an import statement.
+
+Pick ONE option
+TRUE
+FALSE
+
+Clear Selection
+33. An identifier (name of a variable) can contain spaces.
+An identifier (name of a variable) can contain spaces.
+
+Pick ONE option
+TRUE
+FALSE
+
+Clear Selection
+34. Given the following code segment:
+Given the following code segment: 
+    
+    for (int i = 1; i <= 5; i++) {       
+        System.out.print(i); 
+    }  
+
+Which will be displayed when the code segment is run?
+Pick ONE option
+1
+12345
+1234
+123451234512345...
+
+Clear Selection
+35. The ++ operator is used in a for statement to automatically increment a counter
+The ++ operator is used in a for statement to automatically increment a counter by 2 during each loop iteration.
+
+Pick ONE option
+TRUE
+FALSE
+
+Clear Selection
+36. A method can return a value.
+A method can return a value.
+
+Pick ONE option
+TRUE
+FALSE
