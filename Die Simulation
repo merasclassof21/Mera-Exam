@@ -1,0 +1,35 @@
+//Die simulation
+Create a die roll application that simulates the roll of a die (a random number from 1 to 6) to determine which player will start a game first. If the die value is 1 to 3, then output "Player 1 goes first". If the die value is 4 to 6, then output "Player 2 goes first".
+Note: make sure to output the colon, ":", symbol as in the examples below.
+Example Output:
+Die Roll: 3
+Player 1 goes first
+Example Output:
+Die Roll: 6
+Player 2 goes first
+
+code:
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) throws Exception {
+        
+        int die1;
+        
+        die1 = (int)Math.round(Math.random()*6);
+        
+        System.out.println("Die Roll:"+die1);
+        
+        if (die1<=3){
+            System.out.println("Player 1 goes first");
+        } else{
+            System.out.println("Player 2 goes first");
+        }
+        
+    }
+}
