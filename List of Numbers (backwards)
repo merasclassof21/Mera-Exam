@@ -1,0 +1,32 @@
+Write a program that outputs all the integers from 1 to n backwards, where n is given by the user and n > 1. Assume that the user will input values in the correct range.
+
+ 
+
+Example Output:
+
+Enter a number greater than 1: 9
+List from 9 to 1: 9 8 7 6 5 4 3 2 1
+
+
+code:
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) throws Exception {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("");
+        
+        int var = scan.nextInt();
+        System.out.println("List from"+var+"to 1:");
+        
+        while(var>=1){
+            System.out.print(var+" ");
+            var--;
+        }
+    }
+}
