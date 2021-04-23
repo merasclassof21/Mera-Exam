@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) throws Exception {
+        int count = 0;
+        Scanner scan = new Scanner(System.in);
+        String arr[] = new String[5];
+        String arr2[] = new String[5];
+        
+        for(int a = 0; a < 5; a++){
+            arr[a] = scan.next();
+            arr2[a] = scan.next();
+            if(arr2[a].equals("SCHOOL")){
+                break;
+            }
+            count++;
+        }
+        for(int a = 0; a <= count; a++){
+            if(arr[a].equals("R")){
+                arr[a] = "LEFT";
+            }
+            if(arr[a].equals("L")){
+                arr[a] = "RIGHT";
+            }
+        }
+        for(int a = count-1; a >= 0; a--) {
+            System.out.println("Turn "+arr[a+1]+" onto "+arr2[a]+" street.");
+        }
+        System.out.println("Turn "+arr[0]+" into your HOME.");
+    }
+}
